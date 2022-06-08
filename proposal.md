@@ -1,5 +1,9 @@
 ## Draft Proposal - Team 
-By N.Varun Reddy, N.Vyshnavi
+By 
+
+N.Varun Reddy
+
+N.Vyshnavi
 <br/>
 ## Advanced Data Driven Marketing for Optimizing Business's Marketing ROIs
 Marketing is a great tool for most of the businesses for boosting sales. It is an important function in any business as production and distribution largely depend on marketing success. With the growth of technology and digital marketing, traditional marketing channels like direct telemarketing etc., are failing to capture business attention. One the major reason for this is the swift change in business operations as well as customer needs. Data driven campaign management in direct telemarketing can improve the performance. Advent of **Covid in 2020** is demanding more returns from marketing activities with limited or reduced budget across businesses. Data driven campaign management is the only option for business under these circumstances for Optimizing revenue generated from marketing campaigns.
@@ -106,11 +110,37 @@ Model Stack:
 - Logistic Regression
 - Random Forest Classifier
 - XGBoost
+- SVM
+- Decision Tree
 
 Class Imbalance Addressal
 - Oversampling
 - Undersampling
 Other advanced balancing techniques like SMOTE will be used incase above approached doesnt provided good model evaluation parameters
+
+## Deployment
+
+Streamlit application will be built with input as customer and call details and returns probabilty of customer purchasing the term plans.
+
+## Work Distribution:
+
+## N.Vyshnavi  
+Exploratory Data Analysis
+
+Logistic Regression
+
+Random Forest Classifier
+
+SVM
+
+Decision Tree
+
+## N.Varun
+Building model XGBoost
+
+Checking for class imbalance using over fitting and under fitting
+
+Data visualization using streamlit
 
 ### Resources and References
 - Data Source: https://archive.ics.uci.edu/ml/datasets/Bank+Marketing#
