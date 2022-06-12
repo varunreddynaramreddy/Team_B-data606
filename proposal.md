@@ -86,35 +86,11 @@ Variable Associations:
 Key Observations on Distributions and Associations:
 ![image](https://user-images.githubusercontent.com/106714374/173241811-b4e7192a-d9c8-4c75-a590-acc027676a16.png)
 
-Data Summary:
+Target Variable Class Ratio:
 <table>
   <tr>
     <th>Metric</th>
     <th>Value</th>
-  </tr>
-  <tr>
-    <td>Total Number of Records</td>
-    <td>41188</td>
-  </tr>
-  <tr>
-    <td>Number of Features</td>
-    <td>20</td>
-  </tr>
-  <tr>
-    <td>Features with Missing values</td>
-    <td>0</td>
-  </tr>
-  <tr>
-    <td># Numeric Features</td>
-    <td>9</td>
-  </tr>
-  <tr>
-    <td># Categorical Features</td>
-    <td>11</td>
-  </tr>
-  <tr>
-    <td>Target Variable</td>
-    <td>y</td>
   </tr>
   <tr>
     <td>Class Ratio</td>
