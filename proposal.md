@@ -67,6 +67,25 @@ Independant Variable:
 Dependent Variable:
 - y - has the client subscribed a term deposit? (binary: 'yes','no')
 
+### Initial Exploratory Data Analysis
+Data Summary:
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/106714374/173241690-4aadf20b-f6ad-4bc0-bfd6-b6ad27c02ddd.png"/>
+</p>
+
+Key Variable Trends and Distributions:
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/106714374/173241722-db18778a-8564-42c4-b626-944f9fc0dc21.png"/>
+</p>
+
+Variable Associations:
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/106714374/173241738-4644d37a-461c-4fb2-b80d-71367d1a9bd9.png"/>
+</p>
+
+Key Observations on Distributions and Associations:
+![image](https://user-images.githubusercontent.com/106714374/173241811-b4e7192a-d9c8-4c75-a590-acc027676a16.png)
+
 Data Summary:
 <table>
   <tr>
