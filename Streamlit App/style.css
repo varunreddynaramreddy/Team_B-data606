@@ -1,0 +1,68 @@
+:root{
+    --themecolor: #FFC000;
+}
+
+body {
+    color: #fff;
+    background-color: #4F8BF9;
+}
+
+.st-bu{
+   /* height: 2em;*/
+    padding: 1px;
+}
+
+.st-cb{
+    padding: 2px;
+}
+
+.st-c3{
+    padding: 2px;
+}
+
+.css-qrbaxs {
+    margin-bottom: 0px;
+}
+
+input[type="text"] {
+    padding: 0px;
+}
+
+.css-k0sv6k{
+    display: None
+}
+
+
+.css-18e3th9{
+    padding: 10px 10px 10px 30px
+}
+
+th{
+    background-color: #FFC000
+}
+
+td{
+    background-color: red
+}
+
+.stButton{
+   text-align:right
+}
+
+.edgvbvh5{
+    background-color:black;
+    color: white;
+}
+
+.css-12w0qpk{
+    padding: 0.3em;
+    background-color:rgba(188, 182, 174, 0.2);
+    border: 1px solid rgb(192, 187, 187);
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
