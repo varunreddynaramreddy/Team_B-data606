@@ -62,8 +62,8 @@ Dependent Variable:
 #### Link to the Dataset
 https://github.com/varunreddynaramreddy/Team_B-data606/tree/main/Source%20Data
 #### Link to Final EDA Presentation
-https://github.com/varunreddynaramreddy/Team_B-data606/tree/main/Final%20Documentation
+https://github.com/varunreddynaramreddy/Team_B-data606/tree/main/Presentations
 #### Link to Final Project presentation
-https://github.com/varunreddynaramreddy/Team_B-data606/tree/main/Final%20Documentation
+https://github.com/varunreddynaramreddy/Team_B-data606/tree/main/Presentations
 #### Link to Streamlit Application
 https://github.com/varunreddynaramreddy/Team_B-data606/tree/main/Streamlit%20App
