@@ -25,16 +25,6 @@ Current project scope will be limited to Telemarketing. one of the traditional d
 </p>
 <br/>
 
-### Solution Objective and Highlevel Architecture
-High cost per call and requirement  of multiple touch points in customer acquisition journey results in high customer acquisition cost which in turn effects telemarketing's return on investments (ROIs). Building a Machine learning solution for proactively predicting the propensity of customer to subscribe for term deposit at each stage can help taking appropriate next best actions. Customer subscription propensity help in customer/call prioritization by eliminating the resource wastage the incurs due to reaching out to non-potential customers.
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/21233507/172555357-45b61116-58f9-4f2d-8f4d-da5827ca5c7e.png"/>
-</p>
-<p align="center">
- Solution Architecture
-</p>
-
 <h4><u>Key Business Questions Answered</u></h4>
 
 - What are the major factors driving subscriptions (subscriptions)?
@@ -67,59 +57,13 @@ Independant Variable:
 Dependent Variable:
 - y - has the client subscribed a term deposit? (binary: 'yes','no')
 
-### Initial Exploratory Data Analysis
-Data Summary:
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/106714374/173241690-4aadf20b-f6ad-4bc0-bfd6-b6ad27c02ddd.png"/>
-</p>
-
-Key Variable Trends and Distributions:
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/106714374/173241722-db18778a-8564-42c4-b626-944f9fc0dc21.png"/>
-</p>
-
-Variable Associations:
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/106714374/173241738-4644d37a-461c-4fb2-b80d-71367d1a9bd9.png"/>
-</p>
-
-Key Observations on Distributions and Associations:
-![image](https://user-images.githubusercontent.com/106714374/173241811-b4e7192a-d9c8-4c75-a590-acc027676a16.png)
-
-Target Variable Class Ratio:
-<table>
-  <tr>
-    <th>Metric</th>
-    <th>Value</th>
-  </tr>
-  <tr>
-    <td>Class Ratio</td>
-    <td>13.2% (Slightly Unbalanced)</td>
-  </tr>
-</table>
-
-### Model Development and Evaluation
-The current business problem at hand can be viewed as a classification problem with 2 classes. As the business would be interested in understanding/interpreting the results along with propensities ML models fit the requirement (DL models will not be used). Stack of following ML model would be test and evaluated on Precision, Recall and F1 score for final model selection. MAPE would not be used as model evaluation parameter due to presence of minor class imbalance in the data. Class balancing techniques like over sampling/undersampling will be tried out in case direct model development doesnt workout.
-
-Model Stack:
-- Logistic Regression
-- Random Forest Classifier
-- XGBoost
-- SVM
-- Decision Tree
-
-Class Imbalance Addressal
-- Oversampling
-- Undersampling
-Other advanced balancing techniques like SMOTE will be used incase above approached doesnt provided good model evaluation parameters
-
-## Deployment
-
-Streamlit application will be built with input as customer and call details and returns probabilty of customer purchasing the term plans.
-
 ### Resources and References
-- Data Source: https://archive.ics.uci.edu/ml/datasets/Bank+Marketing#
-- Other References:
-  - https://emiboston.com/banks-cut-marketing-spend-in-2020-but-expect-to-ramp-up-investment-in-2021/
-  - https://emiboston.com/an-analysis-of-leading-u-s-banks-2018-marketing-spending/
-  - https://www.business.qld.gov.au/running-business/marketing-sales/marketing-promotion/direct-marketing/using/benefits
+
+#### Link to the Dataset
+https://github.com/varunreddynaramreddy/Team_B-data606/tree/main/Source%20Data
+#### Link to EDA presentation
+https://github.com/varunreddynaramreddy/Team_B-data606/tree/main/Final%20Documentation
+#### Link to final presentation
+https://github.com/varunreddynaramreddy/Team_B-data606/tree/main/Final%20Documentation
+#### Link to streamlit application
+https://github.com/varunreddynaramreddy/Team_B-data606/tree/main/Streamlit%20App
