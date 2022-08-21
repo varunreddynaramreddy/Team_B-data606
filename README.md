@@ -1,4 +1,4 @@
-## Draft Proposal - Team 
+ Team B
 By 
 
 N.Varun Reddy
@@ -116,26 +116,6 @@ Other advanced balancing techniques like SMOTE will be used incase above approac
 ## Deployment
 
 Streamlit application will be built with input as customer and call details and returns probabilty of customer purchasing the term plans.
-
-## Work Distribution:
-
-## N.Vyshnavi  
-Exploratory Data Analysis
-
-Logistic Regression
-
-Random Forest Classifier
-
-SVM
-
-Decision Tree
-
-## N.Varun
-Building model XGBoost
-
-Checking for class imbalance using over fitting and under fitting
-
-Data visualization using streamlit
 
 ### Resources and References
 - Data Source: https://archive.ics.uci.edu/ml/datasets/Bank+Marketing#
