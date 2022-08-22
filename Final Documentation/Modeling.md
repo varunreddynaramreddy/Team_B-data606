@@ -24,8 +24,6 @@
 - Though Xgboost and Random Forest models have exceptional train performance but are failing drastically in test performance
 - Adaboost classifier shows consistent performance across train and test sets in comparison with other models
 - Adaboost has been selected as file model for production
-![image](https://user-images.githubusercontent.com/106714374/185816872-b299f9bd-defb-4535-9c01-0f6c5672f5fb.png)
-
 
 #### Cross Model Results Comparsion
 ![image](https://user-images.githubusercontent.com/106714374/185816680-2b257ad6-b45f-47a0-b1e3-0f416f718dbe.png)
