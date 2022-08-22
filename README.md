@@ -67,3 +67,5 @@ https://github.com/varunreddynaramreddy/Team_B-data606/tree/main/Presentations
 https://github.com/varunreddynaramreddy/Team_B-data606/tree/main/Presentations
 #### Link to Streamlit Application
 https://github.com/varunreddynaramreddy/Team_B-data606/tree/main/Streamlit%20App
+#### Link to Team-B Final part Youtube recorded presentation
+https://youtu.be/_L8xqUZAq0s
