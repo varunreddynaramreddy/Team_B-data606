@@ -1,9 +1,8 @@
 #### Highlevel Final Model Architecture
-
 ![image](https://user-images.githubusercontent.com/106714374/185816412-e96de9ac-35c4-46a9-96b2-4777d17555a6.png)
 
 #### Model Stack Used
-= Logistic Regression
+- Logistic Regression
 - Decision Tree
 - Random Forest
 - XGBoost
@@ -11,8 +10,22 @@
 - SVM
 
 #### Model Results Analysis
+##### With Class Balancing vs Without Class Balancing:
+- Class balancing with oversampling provided significant improvement across all model validation metrics
+-   F1 Score showed an improvement of over 15% (In Train set)
+- Recall showed a increase of 21% (in train set) percent port class balancing 
+- Improvement is observed consistently across models as well as test and train sets
 
-![image](https://user-images.githubusercontent.com/106714374/185816657-32844af0-8e81-411e-991e-d36ad10ecf6e.png)
+##### Test vs Train (for Models with Class Balancing):
+- Average F1 Score on train dataset is ~69% while for test data is 46%
+- A significant difference in test and train performance is observed suggesting a slight overfit across models
+
+##### Model (Algo) vs Model (Algo):
+- Though Xgboost and Random Forest models have exceptional train performance but are failing drastically in test performance
+- Adaboost classifier shows consistent performance across train and test sets in comparison with other models
+- Adaboost has been selected as file model for production
+![image](https://user-images.githubusercontent.com/106714374/185816872-b299f9bd-defb-4535-9c01-0f6c5672f5fb.png)
+
 
 #### Cross Model Results Comparsion
 ![image](https://user-images.githubusercontent.com/106714374/185816680-2b257ad6-b45f-47a0-b1e3-0f416f718dbe.png)
