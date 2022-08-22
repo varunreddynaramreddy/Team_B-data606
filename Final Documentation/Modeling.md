@@ -34,7 +34,7 @@
 ##### ROC Curve
 ![image](https://user-images.githubusercontent.com/106714374/185816710-c04d1bc2-9b54-4887-90c9-2da69c973038.png)
 ##### Feature Importance
-![image](https://user-images.githubusercontent.com/106714374/185816734-94d509a1-ae65-467a-a97e-ceea78d51eed.png)
+![image](https://user-images.githubusercontent.com/106714374/185816994-c6c444a1-7a70-4409-825d-bf3b4edf5d29.png)
 
 #### Modeling Summary
 - Data used modeling showed the presence of class imbalance and mostly every model showed improved F1 score port treating for class imbalance
